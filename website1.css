@@ -1,0 +1,49 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Monteserrat', sans-serif;
+	background: url(exstratup.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 40px;
+	color: black;
+}
+
+hr{
+	border-color: orangered;
+	border-width: 3px;
+	max-width: 70px;
+}
+
+.buffer{
+	height: 50px;
+}
+
+.btn{
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 300px;
+	cursor: pointer;
+	}
+
+.btn-warning{
+	background-color: whitesmoke;
+	border-color: whitesmoke;
+}
+
+.btn-warning:hover{
+	background-color: #ee4b08;
+	border-color: black;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
